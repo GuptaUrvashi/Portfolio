@@ -1,0 +1,74 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.navbar-brand{
+  padding: 0;
+  padding-right: 5px;
+}
+.navbar-brand img {
+  height: 50px;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.95;
+  padding-top: 40px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://images.unsplash.com/19/desktop.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=24e509cb0619106c5cd0edfe02df2ff8");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=9d6386e08229a2aa09eccf001076c3ab");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("ihttps://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7e7acbe64574d6724e1dc0e640c1304a");
+  min-height: 400px;
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+}
+
+.caption span.border {
+  color: #000000;
+  padding: 18px;
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+table{
+  background-color: white;
+}
+
+.intro {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
