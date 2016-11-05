@@ -34,11 +34,9 @@ body, html {
 }
 
 .bgimg-3 {
-  background-image: url("ihttps://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7e7acbe64574d6724e1dc0e640c1304a");
+  background-image: url("https://images.unsplash.com/photo-1445445290350-18a3b86e0b5a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7e7acbe64574d6724e1dc0e640c1304a");
   min-height: 400px;
 }
-
-
 
 .caption {
   position: absolute;
@@ -55,9 +53,15 @@ body, html {
   letter-spacing: 10px;
 }
 table{
-  background-color: white;
+  background-color: #E1E4E6;
 }
 
+.table tbody tr td
+{
+  padding: 0px;
+  border-top: 0px;
+  line-height: 1.56;
+}
 .intro {
   color: #777;
   background-color:white;
@@ -71,4 +75,23 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: #111;
+}
+#resume{
+  text-align: center;
+  color: white;
+}
+.alignleft{
+  text-align: right;
+  background: #F5923B;
+  color: black;
+}
+
+.alignright{
+  text-align: left;
+  border: 1px solid black;
+}
+
+.new{
+  background-color: white;
+  padding:50px 80px;
 }
